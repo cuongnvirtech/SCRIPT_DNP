@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Commands>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="9109c0c5-c3b8-4a88-bed1-017cbe51ca4b" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="1" PauseBeforeExeucution="false" v_Comment="Chờ nút tìm kiếm xuất hiện" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_CustomFilterHeader0">
+        <v_SeleniumElementAction>Wait For Element To Exist</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable031320.024338">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.024338" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable031320.024338" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <WebActionParamTable031320.024338 diffgr:id="WebActionParamTable031320.0243381" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Timeout (Seconds)</Parameter_x0020_Name>
+                <Parameter_x0020_Value>100</Parameter_x0020_Value>
+              </WebActionParamTable031320.024338>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="4bfe1a36-0980-4402-913b-5f0f61027e6c" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="2" PauseBeforeExeucution="false" v_Comment="Click phần tử tìm kiếm" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_CustomFilterHeader0">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable031320.024338">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.024338" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable031320.024338" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="14257c95-cacb-47e6-848b-d68ed52a64b3" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="3" PauseBeforeExeucution="false" v_Comment="Chờ ô nhập dữ liệu tìm kiếm" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_Query">
+        <v_SeleniumElementAction>Wait For Element To Exist</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.024527" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="WebActionParamTable031320.024527">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <WebActionParamTable031320.024527 diffgr:id="WebActionParamTable031320.0245271" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Timeout (Seconds)</Parameter_x0020_Name>
+                <Parameter_x0020_Value>100</Parameter_x0020_Value>
+              </WebActionParamTable031320.024527>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="2052723c-8646-4b0c-8867-2c47d480b997" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="4" PauseBeforeExeucution="false" v_Comment="Nhập mã khách hàng" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_Query">
+        <v_SeleniumElementAction>Set Text</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="WebActionParamTable031320.024559">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.024559" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="WebActionParamTable031320.024559" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <WebActionParamTable031320.024559 diffgr:id="WebActionParamTable031320.0245591" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Text To Set</Parameter_x0020_Name>
+                <Parameter_x0020_Value>{MA_TIM_KIEM}</Parameter_x0020_Value>
+              </WebActionParamTable031320.024559>
+              <WebActionParamTable031320.024559 diffgr:id="WebActionParamTable031320.0245592" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Clear Element Before Setting Text</Parameter_x0020_Name>
+                <Parameter_x0020_Value>Yes</Parameter_x0020_Value>
+              </WebActionParamTable031320.024559>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="4eb630b0-4aa6-4e5f-be0b-c05150d51172" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="5" PauseBeforeExeucution="false" v_Comment="Click Ok" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReportOk">
+        <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+        <v_WebActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.024651" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="WebActionParamTable031320.024651">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+        </v_WebActionParameterTable>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseCommand" CommandID="97ee4ed9-9865-4c56-af75-8fc01eb9431b" CommandName="PauseCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="6" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="500" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="8c22fc17-9bce-41ad-b3fc-001dd79a2518" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="7" PauseBeforeExeucution="false" v_Comment="-----------------------------" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserExecuteScriptCommand" CommandID="5bdccc68-a37d-477b-befc-120f45168c48" CommandName="SeleniumBrowserExecuteScriptCommand" IsCommented="false" SelectionName="Execute Script" DefaultPause="0" LineNumber="8" PauseBeforeExeucution="false" v_Comment="Kiểm tra element có tồn tại hay không " CommandEnabled="true" v_InstanceName="{Instance_name}" v_Element="ctl00_FastBusiness_MainReport_gridRow1">
+        <v_ScriptAction>Exist</v_ScriptAction>
+        <v_Receive>existElement</v_Receive>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="BeginIfCommand" CommandID="397961af-5b5d-4d3a-b224-19cefb41848e" CommandName="BeginIfCommand" IsCommented="false" SelectionName="Begin If" DefaultPause="0" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_IfActionType="Value">
+        <v_IfActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="I2AcPionPara1Table032120.050125">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                  <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="I2AcPionPara1Table032120.050125" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element ref="I2AcPionPara1Table032120.050125" />
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <I2AcPionPara1Table032120.050125 diffgr:id="I2AcPionPara1Table032120.0501251" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Value1</Parameter_x0020_Name>
+                <Parameter_x0020_Value>existElement</Parameter_x0020_Value>
+              </I2AcPionPara1Table032120.050125>
+              <I2AcPionPara1Table032120.050125 diffgr:id="I2AcPionPara1Table032120.0501252" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Operand</Parameter_x0020_Name>
+                <Parameter_x0020_Value>is equal to</Parameter_x0020_Value>
+              </I2AcPionPara1Table032120.050125>
+              <I2AcPionPara1Table032120.050125 diffgr:id="I2AcPionPara1Table032120.0501253" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Value2</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </I2AcPionPara1Table032120.050125>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_IfActionParameterTable>
+      </ScriptCommand>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="0a8ecf62-18c6-480d-be5e-2ed03b7e71f9" CommandName="SeleniumBrowserElementActionCommand" IsCommented="true" SelectionName="Element Action" DefaultPause="0" LineNumber="10" PauseBeforeExeucution="false" v_Comment="Chờ kết quả tìm kiếm" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_inputCell_1.1">
+          <v_SeleniumElementAction>Wait For Element To Exist</v_SeleniumElementAction>
+          <v_WebActionParameterTable>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="WebActionParamTable031320.024752">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.024752" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="WebActionParamTable031320.024752" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement>
+                <WebActionParamTable031320.024752 diffgr:id="WebActionParamTable031320.0247521" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <Parameter_x0020_Name>Timeout (Seconds)</Parameter_x0020_Name>
+                  <Parameter_x0020_Value>100</Parameter_x0020_Value>
+                </WebActionParamTable031320.024752>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </v_WebActionParameterTable>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="892505b8-3916-4f3a-81e6-6b54bdcb2c23" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="11" PauseBeforeExeucution="false" v_Comment="Invoke Click kết quả tìm kiếm" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_inputCell_1.1">
+          <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+          <v_WebActionParameterTable>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="WebActionParamTable031320.024752">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.024752" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="WebActionParamTable031320.024752" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </v_WebActionParameterTable>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="afc018a6-005a-4c49-8313-0bcb8e57d4d7" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="12" PauseBeforeExeucution="false" v_Comment="Invoke Click xóa" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_ToolbarButton_Delete">
+          <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+          <v_WebActionParameterTable>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.024859" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="WebActionParamTable031320.024859">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                          <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </v_WebActionParameterTable>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="e0c002ba-4c47-4db6-bdc3-34cbb7a2903f" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="13" PauseBeforeExeucution="false" v_Comment="Chờ xuất hiện bảng xác thực" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_DialogMessage_dlgOk">
+          <v_SeleniumElementAction>Wait For Element To Exist</v_SeleniumElementAction>
+          <v_WebActionParameterTable>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="WebActionParamTable031320.025115">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.025115" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="WebActionParamTable031320.025115" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+              <DocumentElement>
+                <WebActionParamTable031320.025115 diffgr:id="WebActionParamTable031320.0251151" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                  <Parameter_x0020_Name>Timeout (Seconds)</Parameter_x0020_Name>
+                  <Parameter_x0020_Value>100</Parameter_x0020_Value>
+                </WebActionParamTable031320.025115>
+              </DocumentElement>
+            </diffgr:diffgram>
+          </v_WebActionParameterTable>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="67d3c59a-0406-4336-8b63-2830319ee98c" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="14" PauseBeforeExeucution="false" v_Comment="Invoke Click Ok" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_DialogMessage_dlgOk">
+          <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+          <v_WebActionParameterTable>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="WebActionParamTable031320.025115">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.025115" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="WebActionParamTable031320.025115" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </v_WebActionParameterTable>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="EndIfCommand" CommandID="e225a090-8952-4646-90dd-37011471513c" CommandName="EndIfCommand" IsCommented="false" SelectionName="End If" DefaultPause="0" LineNumber="15" PauseBeforeExeucution="false" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="PauseCommand" CommandID="b1915a16-1675-42f0-9ccf-9ffc9c085668" CommandName="PauseCommand" IsCommented="false" SelectionName="Pause Script" DefaultPause="0" LineNumber="16" PauseBeforeExeucution="false" CommandEnabled="true" v_PauseLength="1000" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="CommentCommand" CommandID="1ea34a21-5395-4b55-8f0c-f5e10ae41271" CommandName="CommentCommand" IsCommented="false" SelectionName="Add Code Comment" DefaultPause="0" LineNumber="17" PauseBeforeExeucution="false" v_Comment="------------------------------" CommandEnabled="true" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserExecuteScriptCommand" CommandID="155c4156-f8e3-456f-8f17-7b46ba330dae" CommandName="SeleniumBrowserExecuteScriptCommand" IsCommented="false" SelectionName="Execute Script" DefaultPause="0" LineNumber="18" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="{Instance_name}" v_Element="ctl00_FastBusiness_MainReport_gridRow1">
+        <v_ScriptAction>Exist</v_ScriptAction>
+        <v_Receive>ExistHTML</v_Receive>
+      </ScriptCommand>
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="BeginIfCommand" CommandID="9e934d3e-4c2a-4b71-a083-ef6508e39e77" CommandName="BeginIfCommand" IsCommented="false" SelectionName="Begin If" DefaultPause="0" LineNumber="19" PauseBeforeExeucution="false" CommandEnabled="true" v_IfActionType="Value">
+        <v_IfActionParameterTable>
+          <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+            <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="I5AcPionPara37Table032520.103739" msdata:UseCurrentLocale="true">
+              <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                  <xs:element name="I5AcPionPara37Table032520.103739">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                        <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:choice>
+              </xs:complexType>
+            </xs:element>
+          </xs:schema>
+          <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+            <DocumentElement>
+              <I5AcPionPara37Table032520.103739 diffgr:id="I5AcPionPara37Table032520.1037391" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Value1</Parameter_x0020_Name>
+                <Parameter_x0020_Value>{ExistHTML}</Parameter_x0020_Value>
+              </I5AcPionPara37Table032520.103739>
+              <I5AcPionPara37Table032520.103739 diffgr:id="I5AcPionPara37Table032520.1037392" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Operand</Parameter_x0020_Name>
+                <Parameter_x0020_Value>is equal to</Parameter_x0020_Value>
+              </I5AcPionPara37Table032520.103739>
+              <I5AcPionPara37Table032520.103739 diffgr:id="I5AcPionPara37Table032520.1037393" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+                <Parameter_x0020_Name>Value2</Parameter_x0020_Name>
+                <Parameter_x0020_Value>True</Parameter_x0020_Value>
+              </I5AcPionPara37Table032520.103739>
+            </DocumentElement>
+          </diffgr:diffgram>
+        </v_IfActionParameterTable>
+      </ScriptCommand>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="SeleniumBrowserElementActionCommand" CommandID="dac996d2-05f6-4f0d-9b72-3f029c85178b" CommandName="SeleniumBrowserElementActionCommand" IsCommented="false" SelectionName="Element Action" DefaultPause="0" LineNumber="20" PauseBeforeExeucution="false" v_Comment="Invoke Click Ok" CommandEnabled="true" v_InstanceName="{Instance_name}" v_SeleniumSearchType="Find Element By ID" v_SeleniumSearchParameter="ctl00_FastBusiness_MainReport_DialogMessage_dlgOk">
+          <v_SeleniumElementAction>Invoke Click</v_SeleniumElementAction>
+          <v_WebActionParameterTable>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+              <xs:element name="WebActionParamTable031320.025115">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Parameter_x0020_Name" type="xs:string" minOccurs="0" />
+                    <xs:element name="Parameter_x0020_Value" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="WebActionParamTable031320.025115" msdata:UseCurrentLocale="true">
+                <xs:complexType>
+                  <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="WebActionParamTable031320.025115" />
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+          </v_WebActionParameterTable>
+        </ScriptCommand>
+      </AdditionalScriptCommands>
+      <AdditionalScriptCommands>
+        <ScriptCommand xsi:type="EndIfCommand" CommandID="86628cbe-4168-43dc-a23e-b91388f6b063" CommandName="EndIfCommand" IsCommented="false" SelectionName="End If" DefaultPause="0" LineNumber="21" PauseBeforeExeucution="false" CommandEnabled="true" />
+      </AdditionalScriptCommands>
+    </ScriptAction>
+  </Commands>
+  <Variables>
+    <ScriptVariable>
+      <VariableName>Instance_name</VariableName>
+      <VariableValue xsi:type="xsd:string"></VariableValue>
+    </ScriptVariable>
+    <ScriptVariable>
+      <VariableName>MA_TIM_KIEM</VariableName>
+      <VariableValue xsi:type="xsd:string"></VariableValue>
+    </ScriptVariable>
+  </Variables>
+</Script>
